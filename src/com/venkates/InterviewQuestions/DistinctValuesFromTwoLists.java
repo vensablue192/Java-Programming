@@ -1,5 +1,5 @@
 /*Find distinct values from two lists without using set data structure*/
-package com.venkates.functionalProgramming;
+package com.venkates.InterviewQuestions;
 
 import java.util.ArrayList;
 import java.util.List;
