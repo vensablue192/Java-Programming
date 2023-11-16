@@ -1,6 +1,6 @@
-package com.venkates.collections.ArrayList;
+package com.venkates.collections;
 
-import java.util.ArrayList;
+import java.util.ArrayList;import java.util.List;
 
 public class ArrayListNotToAllowDuplicates extends ArrayList {
 	
@@ -16,7 +16,7 @@ public class ArrayListNotToAllowDuplicates extends ArrayList {
 	}
 	
 	public static void main(String[] args) {
-		ArrayList l1=new ArrayListNotToAllowDuplicates();
+		List l1=new ArrayListNotToAllowDuplicates();
 		l1.add(1);
 		l1.add(1);
 		l1.add(2);

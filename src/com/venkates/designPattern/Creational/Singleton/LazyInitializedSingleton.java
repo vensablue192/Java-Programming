@@ -1,4 +1,4 @@
-package com.venkates.designPattern.SingletonDesignPattern;
+package com.venkates.designPattern.Creational.Singleton;
 
 public class LazyInitializedSingleton {
 	

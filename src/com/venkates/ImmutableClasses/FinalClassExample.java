@@ -20,7 +20,6 @@ public final class FinalClassExample {
 	}
 
 	// Perform cloning of objects in the getter methods to return a copy rather than returning the actual object reference .
-	// Getter function for mutable objects
 
 	public HashMap<String, String> getTestMap() {
 		return (HashMap<String, String>) testMap.clone();
@@ -74,6 +73,7 @@ public final class FinalClassExample {
 			hmTest.put("4", "new");
 			
 			System.out.println("ce testMap after changing variable from getter methods: "+ce.getTestMap());
+			System.out.println(hmTest);
 
 		}
 
